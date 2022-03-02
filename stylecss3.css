@@ -1,0 +1,138 @@
+/* 
+*{
+	margin:0;
+	padding: 0;
+	background-color: azure;
+} */
+/* .css3{
+	width: 100%;
+	height: 100vh;
+	background-color:lightcoral;
+} */
+.class_effect{
+		text-align: center;
+		padding-top: 500px;
+		color: black;
+	text-shadow: 2px 2px 5px mediumpurple;
+	transition: transform 2s;
+	/* transition-timing-function: linear; */
+
+}
+
+
+.wrdwrp{
+		word-wrap: break-word;
+		width: 100px;
+		border: 1px solid red;
+
+}
+.w_wrdwrp{
+		/*word-wrap: break-word;*/
+		width: 100px;
+		border: 1px solid red;
+
+
+}
+
+/* font in css3 */
+@font-face {
+	font-family: tjs;
+	src: url('soulmate.ttf');
+}
+.fnt_css3{
+		font-family: tjs;	
+}
+
+/* animation in css3 */
+.spidey{
+	background-color: white;
+		width: 100%;
+		height: 230px;
+		position: relative;
+		align-content: center;
+}
+.spidey img{
+	 width: 300px;
+	 height: 300px;
+	 position: absolute;
+	 left: 0; 
+	 animation-name: spidey;
+	 animation-duration: 7s;
+	 animation-timing-function: linear;
+	 animation-iteration-count: infinite;
+}
+@keyframes spidey{
+	from{left: 0%;}
+	to{left: 85%;}
+}
+
+/* Transition */
+.tran{
+	width: 50px;
+	height: 50px;
+ transition-property: all;
+	transition-duration: 2s;
+	transition-timing-function: linear;
+	transition-delay: 1s;
+}
+.tran:hover{
+	width: 100px;
+	height: 100px;
+	/* transform: scale(2, 2); */
+}
+/* multiple columns */
+.mulpara{
+	column-count: 3;
+	column-gap: 30px;
+	column-rule: solid;
+	column-rule-color:rgb(245, 185, 185); 
+	text-align: justify;
+
+}
+.img_fluid{
+	height: 300px;
+	width: 300px;
+	border-radius: 50px;
+	border-color:red;
+}
+.card{
+	width: 20%;
+	box-shadow: 2px 2px;
+}
+
+/* UI IN CSS  */
+
+.UI{
+	margin-left:600px;
+	border: 2px ;
+	border-style: solid;
+	width: 30%;
+	height: 20%;
+	resize: horizontal;
+	overflow: auto;	
+}
+.boxsizing{
+	width: 200px;
+	height: 200px;
+	background: black;
+	/* padding-left: 5px; */
+	/* transform: translatey(-450%); */
+	transform: translatex(450%);						/*transform in css3 */
+
+
+	box-sizing: border-box;
+}
+p{
+	transform: translatex(50px);
+	 
+	color: white	;
+}
+/* transform in css3 */
+.class_effect:hover{
+			transform: rotate(360deg);
+}
+progress{
+	height: 5px;
+	width: 50%;
+	
+}

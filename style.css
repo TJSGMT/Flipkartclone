@@ -1,0 +1,158 @@
+#byid{
+	 color:hotpink;
+}
+.byclass{
+	color: mediumpurple;
+}
+
+*{
+	margin:0;
+	padding: 0;
+	background-color: azure;
+}
+.bgcol{
+
+
+	height: 100vh;
+	width: 100%;
+	/*background-color: lightblue;*/
+	background-image: url('sd2.jpg');
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	background-attachment: fixed;
+}
+.bgimg{
+	height: 100vh;
+	width: 100%;
+	/*background-color: lightblue;*/
+	background-image: url('deep.jpg');	
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	background-attachment: fixed		;
+}
+#fontcss{
+	font-family: "Sofia", sans-serif;
+	font-size: 3em;	
+	font-style: italic;
+	font-weight: 300;
+	/*font-variant: small-caps;*/
+}
+#textcss{
+	font-family: "trirong", serif;
+	font-size: 3em;
+	color: red;
+	letter-spacing:5px;
+	word-spacing:5px;
+	direction: rtl;
+	text-indent: 40pxs;
+	/*text-align: right;*/
+	text-transform: uppercase;
+}
+
+a:link{
+		color: black;
+
+}
+a:visited{
+		color: deeppink;
+
+}
+a:hover{
+		color: blueviolet;
+
+}
+a:active{
+		color: red;
+
+}
+.border{	
+	width: 250px;
+	height: 250px;
+/*	border-color: green;
+	border-width: 5px;
+	border-style: dashed; */
+	border:5px dotted green;
+	border-radius: 20px;
+}
+ul{
+	list-style-type: square;
+	position: center;
+}
+
+.boxmodel{
+	width: 400px;
+	height: 400px;
+	border-radius: 18px;
+	margin-left:550px	;
+	background-color:lightblue;
+}	
+input{
+	border-radius: 8px;
+	padding: 10px;
+	margin: 15px;
+}
+button{
+	padding: 5px;
+	margin-left: 180px;
+}
+label{
+	margin-left: 5px;
+}
+.father{
+	height: 95px;*/*/
+	/*swidth: 95px;*/*/
+	/*margin: 200px;*/
+}
+.child1{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	position: absolute;
+	left: 0;
+}
+.child2{
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+	position: absolute;
+	right: 0;
+}
+.child3{
+	width: 100px;
+	height: 100px;
+	background-color: lightpink;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.child4{
+	width: 100px;
+	height: 100px;
+	background-color: palevioletred;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.header{
+		width: 100%;
+		height: 80px;
+		background-color: black;
+		/*border-radius: 5px;*/
+}
+.logo{
+	width: 30%;
+	line-height: 80px;
+	text-align: center;
+	background-color: lightcoral;
+}
+.menu{
+	width: 70%;
+	height: 80px;
+	background-color: lightgoldenrodyellow;
+	float: left;
+	/*display: inline-block;*/
+	/*justify-content:space-between;*/
+}
+
+
+
